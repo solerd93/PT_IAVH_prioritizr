@@ -5,13 +5,13 @@ library(sf)         # package for working with vector data
 library(highs)      # package provides HiGHS solver
 
 # import planning unit data
-pu_data <- read_sf("data_intento/ZS_BNT_IHEH_To.gpkg")
+pu_data <- read_sf("DATOS/ZS_BNT_IHEH_To.gpkg")
 
 # definir unidades de costos segun IHEH
 pu_data$precio <- as.integer(pu_data$IHEH_mean)
 
 # import elevation data
-dem_data <- rast("data_intento/DEM_combinado.tif")
+dem_data <- rast("DATOS/DEM_combinado.tif")
 # ajustar valores de bandas a 1
 dem_data <- dem_data/dem_data
 
