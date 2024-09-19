@@ -11,7 +11,7 @@ pu_data <- read_sf("data_intento/ZS_BNT_IHEH_To.gpkg")
 pu_data$precio <- as.integer(pu_data$ZS_sum / 1000000)
 
 # import elevation data
-dem_data <- rast("data_intento/DEM_combinado.tif")
+dem_data <- rast("DATOS/DEM_combinado.tif")
 # ajustar valores de bandas a 1
 dem_data <- dem_data/dem_data
 
