@@ -5,7 +5,7 @@ library(sf)         # package for working with vector data
 library(highs)      # package provides HiGHS solver
 
 # import planning unit data
-pu_data <- read_sf("data_intento/ZS_BNT_IHEH_To.gpkg")
+pu_data <- read_sf("DATOS/ZS_BNT_IHEH_To.gpkg")
 
 # definir unidades de costos segun BNT en millones
 pu_data$precio <- as.integer(pu_data$ZS_sum / 1000000)
