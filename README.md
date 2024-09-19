@@ -11,4 +11,6 @@ Este repositorio contiene los archivos y scripts utilizados para un ejercicio si
 - pr_BNT_02: Ejercicio de priorización con costos del BNT con restricciones.
 - pr_IHEH_01: Ejercicio de priorización con costos del IHEH sin restricciones.
 - pr_IHEH_02: Ejercicio de priorización con costos del IHEH con restricciones.
-Las restricciones 
+
+3. Diagrama de flujo.
+4. PT_DiegoSoler: Documento resumen sobre el ejercicio realizado y las consideraciones técnicas para llevar a cabo el ejercicio de priorización.
